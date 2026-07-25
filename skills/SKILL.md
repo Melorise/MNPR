@@ -21,7 +21,7 @@ description: 指导 AI 查询、使用和维护 Melorise Nix Packages Repository
 
 ### 1. 查询 MNPR
 
-先读取 `https://github.com/Melorise/MNPR` 的当前内容，不依赖记忆或旧文档。
+先读取 `https://github.com/Melorise/MNPR/tree/unstable` 的当前内容，不依赖记忆、GitHub 默认分支或旧文档。
 
 1. 按用户给出的名称、别名和描述搜索软件条目。
 2. 读取对应条目及 MNPR 当前的加载和输出规则。
@@ -65,7 +65,7 @@ description: 指导 AI 查询、使用和维护 Melorise Nix Packages Repository
 仅给出接入所必需的配置。Flake 配置中的基本输入形式为：
 
 ```nix
-inputs.mnpr.url = "github:Melorise/MNPR";
+inputs.mnpr.url = "github:Melorise/MNPR/unstable";
 ```
 
 不要为 MNPR 或其上游输入添加 `nixpkgs.follows`。MNPR 应保留上游锁定的输入图，以免改变 derivation 并破坏上游构建缓存命中。
@@ -96,9 +96,9 @@ inputs.mnpr.homeManagerModules.<name>
 对于命令行安装、构建或运行，先通过 MNPR 当前输出核实名称，再选择适用命令：
 
 ```console
-nix build github:Melorise/MNPR#<name>
-nix run github:Melorise/MNPR#<name>
-nix profile install github:Melorise/MNPR#<name>
+nix build github:Melorise/MNPR/unstable#<name>
+nix run github:Melorise/MNPR/unstable#<name>
+nix profile install github:Melorise/MNPR/unstable#<name>
 ```
 
 不要承诺同时支持这三种操作；它们分别取决于包、应用和可执行程序输出。
@@ -117,12 +117,20 @@ nix profile install github:Melorise/MNPR#<name>
 直接以 MNPR 作为顶层 Flake 执行命令时，先核实 MNPR 当前 `nixConfig` 是否包含所需缓存。若包含，可使用：
 
 ```console
-nix --accept-flake-config build github:Melorise/MNPR#<name>
+nix --accept-flake-config build github:Melorise/MNPR/unstable#<name>
 ```
 
 当 MNPR 只是用户 Flake 的一个 input 时，不要假定 MNPR 的 `nixConfig` 会成为用户的永久 Nix 配置。优先使用 MNPR 当前提供的缓存模块或选项；使用前必须从仓库核实其真实接口。
 
 如果 MNPR 没有适合用户现有配置的缓存模块，将条目中的 substituter 和公钥合并到用户已经使用的 Nix settings 位置。不要为了添加两项设置而改变其配置体系。
+
+当用户准备在 NixOS 中同时添加缓存和软件包时，建议分两次操作：
+
+1. 先只添加所需 substituter 和公钥，执行用户现有流程中的一次 `switch`。
+2. 确认 Nix daemon 已加载新的缓存配置。
+3. 再添加软件包，并再次执行 `switch`。
+
+解释这一顺序：NixOS rebuild 会在切换新配置之前构建软件。如果缓存和软件包在同一次变更中加入，本次构建可能仍由尚未加载新缓存设置的 Nix daemon 执行，无法命中缓存。不要擅自指定用户应使用 `nixos-rebuild`、`nh` 或其他具体管理工具；沿用其现有的 switch 流程。
 
 ## 保持上游缓存命中
 

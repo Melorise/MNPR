@@ -7,15 +7,15 @@ MNPR 是一个 Flake 原生的第三方软件聚合索引。软件的实际 Nix 
 查看当前输出：
 
 ```console
-nix flake show github:Melorise/MNPR
+nix flake show github:Melorise/MNPR/unstable
 ```
 
 临时构建、运行或安装软件：
 
 ```console
-nix build github:Melorise/MNPR#<name>
-nix run github:Melorise/MNPR#<name>
-nix profile install github:Melorise/MNPR#<name>
+nix build github:Melorise/MNPR/unstable#<name>
+nix run github:Melorise/MNPR/unstable#<name>
+nix profile install github:Melorise/MNPR/unstable#<name>
 ```
 
 并非每个软件都同时提供可运行的 app 和可执行 package；以 `nix flake show` 的实际输出为准。
@@ -24,7 +24,7 @@ nix profile install github:Melorise/MNPR#<name>
 
 ```nix
 {
-  inputs.mnpr.url = "github:Melorise/MNPR";
+  inputs.mnpr.url = "github:Melorise/MNPR/unstable";
 
   outputs =
     { self, mnpr, ... }:
@@ -58,7 +58,7 @@ MNPR 也会以软件名称转发上游提供的默认 overlay。只有确实需�
 直接从 MNPR 构建时，可明确接受仓库提供的 Flake 配置：
 
 ```console
-nix --accept-flake-config build github:Melorise/MNPR#<name>
+nix --accept-flake-config build github:Melorise/MNPR/unstable#<name>
 ```
 
 这会启用 MNPR 条目中登记的第三方 substituter 和公钥。公钥表示对对应缓存提供者的信任，请在接受前核实配置。
@@ -74,6 +74,14 @@ nix --accept-flake-config build github:Melorise/MNPR#<name>
   ];
 }
 ```
+
+建议分两次应用配置：
+
+1. 先只添加 MNPR 缓存模块及所需软件的缓存名称，然后执行一次 `switch`。
+2. 确认新的 substituter 和公钥已经由 Nix daemon 加载。
+3. 再把软件包加入系统配置，并再次执行 `switch`。
+
+NixOS 在一次 rebuild 中会先完成构建，之后才切换到新配置。如果缓存设置和软件包在同一次变更中加入，负责本次构建的 Nix daemon 可能尚未使用新的缓存配置，导致软件仍从源码构建。先单独应用缓存配置，可以让后续软件构建正常查询并命中对应缓存。
 
 MNPR 作为另一个 Flake 的 input 时，不应依赖其 `nixConfig` 自动成为系统的永久 Nix 配置。
 
@@ -124,4 +132,4 @@ python3 scripts/generate-flake.py --check
 
 不要直接修改生成文件中的 input 或缓存声明。
 
-仓库默认开发分支为 `unstable`。
+MNPR 的使用入口和默认开发分支均为 `unstable`。本文所有示例均明确跟踪该分支，不依赖 GitHub 默认分支设置。
