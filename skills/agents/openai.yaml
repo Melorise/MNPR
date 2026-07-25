@@ -1,0 +1,4 @@
+interface:
+  display_name: "MNPR Usage"
+  short_description: "查询并接入 MNPR 聚合的软件包"
+  default_prompt: "使用 $mnpr-usage 将 MNPR 中的软件包接入我现有的 Nix 配置。"
