@@ -23,11 +23,11 @@
   nixConfig = {
     extra-substituters = [
       "https://melorise-cp-nix.cachix.org"
-      "https://codex-desktop-linux.cachix.org"
+      "https://melorise-codex-desktop.cachix.org"
     ];
     extra-trusted-public-keys = [
       "melorise-cp-nix.cachix.org-1:GNg96VizkktTdGMrvl6+PLPHY3jPce4a72HqP2cj4S4="
-      "codex-desktop-linux.cachix.org-1:nX/xy6AdK9hQE24A8ALGjkCKj2ObFmcnemiL5Cid4nk="
+      "melorise-codex-desktop.cachix.org-1:PN32aGXkz7tWwvCuwQfKo3/P/dOG/oa8mS8y58pdB5U="
     ];
   };
 
