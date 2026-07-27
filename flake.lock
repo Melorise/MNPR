@@ -80,11 +80,11 @@
         "nixpkgs": "nixpkgs_3"
       },
       "locked": {
-        "lastModified": 1784967922,
-        "narHash": "sha256-QX0neM1XVWa/Jch139JvygshGYRrbbOIW2VvKaIsK9U=",
+        "lastModified": 1785057336,
+        "narHash": "sha256-RHq8+Eb9qJOzQrVDuEXnuKsMO7XnDTzzKlPgYPz1ZQE=",
         "ref": "nix",
-        "rev": "ef58e4622c999a4bd670a1fd8a1fe7dee37fa67d",
-        "revCount": 1761,
+        "rev": "1a8d18b8d8d96bc99b44b77883e3252c2907f197",
+        "revCount": 1765,
         "type": "git",
         "url": "https://github.com/Melorise/codex-desktop-linux-builder.git"
       },
@@ -273,11 +273,11 @@
         "winfonts": "winfonts"
       },
       "locked": {
-        "lastModified": 1785118020,
-        "narHash": "sha256-bx26GhPBHfPuAWKUinnwPf8H1Iu8JBwo+7sFq1pAyEM=",
+        "lastModified": 1785120636,
+        "narHash": "sha256-lQJuHUtWkI974vwtdJRGsXJMDkjYaRhovHDx1NIz5z8=",
         "ref": "main",
-        "rev": "ea3704089ac901e30791834fe16748125e2b7dc7",
-        "revCount": 1,
+        "rev": "59f0e5be703e122aa03ad0ddda95e4ccf9bff721",
+        "revCount": 2,
         "type": "git",
         "url": "https://github.com/Melorise/spark-winfonts-for-nixos.git"
       },
