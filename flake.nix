@@ -18,6 +18,9 @@
       "flake" = false;
       "url" = "git+https://gitee.com/Melorise/spark-store.git?ref=nixos";
     };
+    "spark-winfonts" = {
+      "url" = "git+https://github.com/Melorise/spark-winfonts-for-nixos.git?ref=main";
+    };
   };
 
   nixConfig = {

@@ -224,13 +224,30 @@
         "type": "github"
       }
     },
+    "nixpkgs_5": {
+      "locked": {
+        "lastModified": 1784796856,
+        "narHash": "sha256-wWFrV5/Qbm+lyt5x20E/bSbfJiGKMo4RCxZV8cl/WZI=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "e2587caef70cea85dd97d7daab492899902dbf5d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "amber-pm": "amber-pm",
         "clash-party": "clash-party",
         "codex-desktop": "codex-desktop",
         "nixpkgs": "nixpkgs_4",
-        "spark-store": "spark-store"
+        "spark-store": "spark-store",
+        "spark-winfonts": "spark-winfonts"
       }
     },
     "spark-store": {
@@ -248,6 +265,26 @@
         "ref": "nixos",
         "type": "git",
         "url": "https://gitee.com/Melorise/spark-store.git"
+      }
+    },
+    "spark-winfonts": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_5",
+        "winfonts": "winfonts"
+      },
+      "locked": {
+        "lastModified": 1785118020,
+        "narHash": "sha256-bx26GhPBHfPuAWKUinnwPf8H1Iu8JBwo+7sFq1pAyEM=",
+        "ref": "main",
+        "rev": "ea3704089ac901e30791834fe16748125e2b7dc7",
+        "revCount": 1,
+        "type": "git",
+        "url": "https://github.com/Melorise/spark-winfonts-for-nixos.git"
+      },
+      "original": {
+        "ref": "main",
+        "type": "git",
+        "url": "https://github.com/Melorise/spark-winfonts-for-nixos.git"
       }
     },
     "sysproxy": {
@@ -280,6 +317,18 @@
         "owner": "nix-systems",
         "repo": "default",
         "type": "github"
+      }
+    },
+    "winfonts": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-gh0Wh1fd4OQ02DRxG2gERgej1EVqE3VAid+hlOMCI98=",
+        "type": "file",
+        "url": "https://mirrors.sdu.edu.cn/spark-store/amd64-store/others/winfonts/winfonts_1.4_all.deb"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://mirrors.sdu.edu.cn/spark-store/amd64-store/others/winfonts/winfonts_1.4_all.deb"
       }
     }
   },
