@@ -43,11 +43,11 @@
         "sysproxy": "sysproxy"
       },
       "locked": {
-        "lastModified": 1784912732,
-        "narHash": "sha256-pW80qZIIr0CtXHSVVHB92NFxvhRzRCH9nOaf48uwoO8=",
+        "lastModified": 1785318103,
+        "narHash": "sha256-g6YVMovsE3ftKuuC4AOk9kE+b8SqLBNnZ1o7Jk7DHwc=",
         "ref": "main",
-        "rev": "0bdaaa0c310817394f3c7a06ad6a990cc1591eef",
-        "revCount": 9,
+        "rev": "72d09590e945f94aa497ff8aed3d276056936905",
+        "revCount": 10,
         "type": "git",
         "url": "https://github.com/Melorise/cp-nix.git"
       },
@@ -80,11 +80,11 @@
         "nixpkgs": "nixpkgs_3"
       },
       "locked": {
-        "lastModified": 1785057336,
-        "narHash": "sha256-RHq8+Eb9qJOzQrVDuEXnuKsMO7XnDTzzKlPgYPz1ZQE=",
+        "lastModified": 1785137740,
+        "narHash": "sha256-rJMvcTyK49dWFUCwuN4rk/aByPnXz4otMbe0wMn6rzY=",
         "ref": "nix",
-        "rev": "1a8d18b8d8d96bc99b44b77883e3252c2907f197",
-        "revCount": 1765,
+        "rev": "c6d76231f0623c3ef0b18c7e9158697c96bdcf9f",
+        "revCount": 1775,
         "type": "git",
         "url": "https://github.com/Melorise/codex-desktop-linux-builder.git"
       },
@@ -127,7 +127,7 @@
     "geoip": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-ov9zEg2tBCpxru5uNzMs6Npaawz0CXthUaBDQIBcOqs=",
+        "narHash": "sha256-A86jjHB1GmIqxlczeX5b81HNi7O9WXmsabSwMxomugQ=",
         "type": "file",
         "url": "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat"
       },
@@ -139,7 +139,7 @@
     "geosite": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-PAA0zUq0to9HpJ7+sXXcCm6GgvuZvci5HVoH/u41m0k=",
+        "narHash": "sha256-kQjuYfZv7YaBqnbOG09Qsq3KnVIKv+LxStQA9X/Fvz8=",
         "type": "file",
         "url": "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
       },
@@ -151,7 +151,7 @@
     "metadb": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-UVm3qjQmgmDSzv6zXPgVXfEQsHwDzl3yTWrRXzh9hrs=",
+        "narHash": "sha256-C40bKY8BbjunMhQo2636RVbZjl2CnG9jNJIMfdoFpEk=",
         "type": "file",
         "url": "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.metadb"
       },
@@ -178,11 +178,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1784796856,
-        "narHash": "sha256-wWFrV5/Qbm+lyt5x20E/bSbfJiGKMo4RCxZV8cl/WZI=",
+        "lastModified": 1785090369,
+        "narHash": "sha256-m0pDuRJG7EDo9ri+4Ksu83VsI+PlxNC9lNBfydejce4=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "e2587caef70cea85dd97d7daab492899902dbf5d",
+        "rev": "624af665418d3c65d544145b4d34ad696439570e",
         "type": "github"
       },
       "original": {
@@ -273,11 +273,11 @@
         "winfonts": "winfonts"
       },
       "locked": {
-        "lastModified": 1785120636,
-        "narHash": "sha256-lQJuHUtWkI974vwtdJRGsXJMDkjYaRhovHDx1NIz5z8=",
+        "lastModified": 1785318676,
+        "narHash": "sha256-JsAV6KC0+FVZZkfrSIcNPAFBacZECfYEFCo00gu1kq4=",
         "ref": "main",
-        "rev": "59f0e5be703e122aa03ad0ddda95e4ccf9bff721",
-        "revCount": 2,
+        "rev": "f3f8e92eaea7b05dbf380da0c1697dcf4a5343d9",
+        "revCount": 3,
         "type": "git",
         "url": "https://github.com/Melorise/spark-winfonts-for-nixos.git"
       },
