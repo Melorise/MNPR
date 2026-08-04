@@ -22,7 +22,7 @@
     "asn": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-bYBRUboYCyEixK/jdhPayyKdB0HQegLmiFXvzB7ZFDU=",
+        "narHash": "sha256-93jhCOYywryyJcAtAi9G06KqViiGhA1R1eUVMr9p0uA=",
         "type": "file",
         "url": "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/GeoLite2-ASN.mmdb"
       },
@@ -43,11 +43,11 @@
         "sysproxy": "sysproxy"
       },
       "locked": {
-        "lastModified": 1785318103,
-        "narHash": "sha256-g6YVMovsE3ftKuuC4AOk9kE+b8SqLBNnZ1o7Jk7DHwc=",
+        "lastModified": 1785721826,
+        "narHash": "sha256-PK+CXVgL8wuwop5iwDVnNsl9s9t6IVIDVgBP38klN30=",
         "ref": "main",
-        "rev": "72d09590e945f94aa497ff8aed3d276056936905",
-        "revCount": 10,
+        "rev": "ada61884066f4e743edd98c815d8eb2f87e07c7e",
+        "revCount": 11,
         "type": "git",
         "url": "https://github.com/Melorise/cp-nix.git"
       },
@@ -80,11 +80,11 @@
         "nixpkgs": "nixpkgs_3"
       },
       "locked": {
-        "lastModified": 1785137740,
-        "narHash": "sha256-rJMvcTyK49dWFUCwuN4rk/aByPnXz4otMbe0wMn6rzY=",
+        "lastModified": 1785687623,
+        "narHash": "sha256-f5uwkAH/v3qNMznufPMEqD44zCoA0BgTCXLLyosFkVA=",
         "ref": "nix",
-        "rev": "c6d76231f0623c3ef0b18c7e9158697c96bdcf9f",
-        "revCount": 1775,
+        "rev": "ec38ca664c7fd18fa33744216850924bd3132872",
+        "revCount": 1839,
         "type": "git",
         "url": "https://github.com/Melorise/codex-desktop-linux-builder.git"
       },
@@ -97,7 +97,7 @@
     "country": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-DpM+/Jsyy7R51/AQKDBVhuT8Fgr1crpz0uaX/0xV6bs=",
+        "narHash": "sha256-jbNHij8EG9uPqq1zHVILhpL6itfTSxMgB2QxAvIIykw=",
         "type": "file",
         "url": "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb"
       },
@@ -127,7 +127,7 @@
     "geoip": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-A86jjHB1GmIqxlczeX5b81HNi7O9WXmsabSwMxomugQ=",
+        "narHash": "sha256-RbuV3q6zBLdHhiMd1xdfSC9+p4AqqPM03ira9SwELiY=",
         "type": "file",
         "url": "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat"
       },
@@ -139,7 +139,7 @@
     "geosite": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-kQjuYfZv7YaBqnbOG09Qsq3KnVIKv+LxStQA9X/Fvz8=",
+        "narHash": "sha256-ByCEROjr81ZgFfkMw5kCAnEPdcVWH/7JboHBMQd4lFc=",
         "type": "file",
         "url": "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
       },
@@ -151,7 +151,7 @@
     "metadb": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-C40bKY8BbjunMhQo2636RVbZjl2CnG9jNJIMfdoFpEk=",
+        "narHash": "sha256-bCYYH8mX0kPxPF0XLZjfGYP0R8N2yrDjId8zUoL98kg=",
         "type": "file",
         "url": "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.metadb"
       },
@@ -178,11 +178,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1785090369,
-        "narHash": "sha256-m0pDuRJG7EDo9ri+4Ksu83VsI+PlxNC9lNBfydejce4=",
+        "lastModified": 1785571196,
+        "narHash": "sha256-KoTsyMQqnXQZq8deCEnu4QkyldkwH/bpMMhUcfMdGIw=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "624af665418d3c65d544145b4d34ad696439570e",
+        "rev": "148bab9c1c3c53136ecb44a6ea356a0ed5b39b06",
         "type": "github"
       },
       "original": {
@@ -210,11 +210,11 @@
     },
     "nixpkgs_4": {
       "locked": {
-        "lastModified": 1785090369,
-        "narHash": "sha256-m0pDuRJG7EDo9ri+4Ksu83VsI+PlxNC9lNBfydejce4=",
+        "lastModified": 1785692966,
+        "narHash": "sha256-vUfIeBEfpbAfZ5zjgIkYk7eHBeVfCYVjLbWnMkseYnk=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "624af665418d3c65d544145b4d34ad696439570e",
+        "rev": "643809054d65fdd466a63e3155b8c498cb483c04",
         "type": "github"
       },
       "original": {
@@ -290,11 +290,11 @@
     "sysproxy": {
       "flake": false,
       "locked": {
-        "lastModified": 1781896006,
-        "narHash": "sha256-z/IlR6kQfzFkg42fmKKTUTFGgcMLobcNZHeHQFDN5kw=",
+        "lastModified": 1785520152,
+        "narHash": "sha256-r9nIkg0x3p8iBpzGKUJ5EiZ9UdLZ3jYNV66/VBDK27E=",
         "owner": "mihomo-party-org",
         "repo": "sysproxy-rs-opti",
-        "rev": "d6fbb3dee696739e7d32ece15479a7770f687c9b",
+        "rev": "0e242650d7b4c568ab1b91cb319e0b44b2a445bd",
         "type": "github"
       },
       "original": {
