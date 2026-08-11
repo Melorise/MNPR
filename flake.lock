@@ -22,7 +22,7 @@
     "asn": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-93jhCOYywryyJcAtAi9G06KqViiGhA1R1eUVMr9p0uA=",
+        "narHash": "sha256-IBVDGsxeTfZw0/dHgKtFMgFuAmNtdKlbGVbjt5qXTF0=",
         "type": "file",
         "url": "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/GeoLite2-ASN.mmdb"
       },
@@ -43,11 +43,11 @@
         "sysproxy": "sysproxy"
       },
       "locked": {
-        "lastModified": 1785721826,
-        "narHash": "sha256-PK+CXVgL8wuwop5iwDVnNsl9s9t6IVIDVgBP38klN30=",
+        "lastModified": 1786323385,
+        "narHash": "sha256-QiulMb/ZEK5ckr+12m4ETXM+Xb/9aUteI0Ud4jmOydE=",
         "ref": "main",
-        "rev": "ada61884066f4e743edd98c815d8eb2f87e07c7e",
-        "revCount": 11,
+        "rev": "49d872014ff6f94231fc9681291abf4c691e575e",
+        "revCount": 12,
         "type": "git",
         "url": "https://github.com/Melorise/cp-nix.git"
       },
@@ -80,11 +80,11 @@
         "nixpkgs": "nixpkgs_3"
       },
       "locked": {
-        "lastModified": 1785687623,
-        "narHash": "sha256-f5uwkAH/v3qNMznufPMEqD44zCoA0BgTCXLLyosFkVA=",
+        "lastModified": 1786358182,
+        "narHash": "sha256-JVJX1innDJZoaMmTurwM+4LowjdQsjmXsyAnQVp9lGE=",
         "ref": "nix",
-        "rev": "ec38ca664c7fd18fa33744216850924bd3132872",
-        "revCount": 1839,
+        "rev": "d00ee7080fa9375e959eb44035bd068c9900e62b",
+        "revCount": 1937,
         "type": "git",
         "url": "https://github.com/Melorise/codex-desktop-linux-builder.git"
       },
@@ -97,7 +97,7 @@
     "country": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-jbNHij8EG9uPqq1zHVILhpL6itfTSxMgB2QxAvIIykw=",
+        "narHash": "sha256-hVMZt2pUM2WdN32BIk53was+YH6qjycuO2h2t7h0T70=",
         "type": "file",
         "url": "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb"
       },
@@ -127,7 +127,7 @@
     "geoip": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-RbuV3q6zBLdHhiMd1xdfSC9+p4AqqPM03ira9SwELiY=",
+        "narHash": "sha256-wak9qrukz3WnwPoINjGU7MecRNyP7o2SYCAnTvkkRtY=",
         "type": "file",
         "url": "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat"
       },
@@ -139,7 +139,7 @@
     "geosite": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-ByCEROjr81ZgFfkMw5kCAnEPdcVWH/7JboHBMQd4lFc=",
+        "narHash": "sha256-M1yEHIquz4qfGJdE57WBGy900AUiGta6AKwlnv/n0FQ=",
         "type": "file",
         "url": "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
       },
@@ -151,7 +151,7 @@
     "metadb": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-bCYYH8mX0kPxPF0XLZjfGYP0R8N2yrDjId8zUoL98kg=",
+        "narHash": "sha256-25tsHTb9pKP/oYF+vVvdnP3UzeKFZyUvYQflZAIsSrU=",
         "type": "file",
         "url": "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.metadb"
       },
@@ -178,11 +178,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1785571196,
-        "narHash": "sha256-KoTsyMQqnXQZq8deCEnu4QkyldkwH/bpMMhUcfMdGIw=",
+        "lastModified": 1786106723,
+        "narHash": "sha256-zDSUbpoeo/9ZmD2+wXnzxoo1+uhL8vxc0b8yuYMKYq0=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "148bab9c1c3c53136ecb44a6ea356a0ed5b39b06",
+        "rev": "f13ff45afd1bb73e640eaa08a7066dbed07e3238",
         "type": "github"
       },
       "original": {
@@ -210,11 +210,11 @@
     },
     "nixpkgs_4": {
       "locked": {
-        "lastModified": 1785692966,
-        "narHash": "sha256-vUfIeBEfpbAfZ5zjgIkYk7eHBeVfCYVjLbWnMkseYnk=",
+        "lastModified": 1786106723,
+        "narHash": "sha256-zDSUbpoeo/9ZmD2+wXnzxoo1+uhL8vxc0b8yuYMKYq0=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "643809054d65fdd466a63e3155b8c498cb483c04",
+        "rev": "f13ff45afd1bb73e640eaa08a7066dbed07e3238",
         "type": "github"
       },
       "original": {
