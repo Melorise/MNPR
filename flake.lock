@@ -5,11 +5,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1784815912,
-        "narHash": "sha256-d/1aGoCb4Y6V9LWtbWJe3zJ/FV8tpH5BNq0u8FYRjwQ=",
+        "lastModified": 1787289709,
+        "narHash": "sha256-vN705w7fORsdytz7EotF56lrFb60r6l2KKjzvlRUXzk=",
         "ref": "nixos",
-        "rev": "8c5aefe207f2d3bc047e2becd541cb3efb2489e2",
-        "revCount": 251,
+        "rev": "98f4e12d1f40d965b4918a17d0f0f64c0dbedacd",
+        "revCount": 253,
         "type": "git",
         "url": "https://gitee.com/Melorise/amber-pm.git"
       },
@@ -22,7 +22,7 @@
     "asn": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-uoB5yG6ngHZjBzvsOtvz9KB58uX2cYVyl9sVuU6TMa8=",
+        "narHash": "sha256-tdsxfF2r5kQM3duMcHAL3sIIK16+eAo0s2FDUa7vvu4=",
         "type": "file",
         "url": "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/GeoLite2-ASN.mmdb"
       },
@@ -34,7 +34,7 @@
     "chatgpt-deb": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-YITfRnnzJfYpfiVP1YywnEWkNUq2WZ8yCeUasLZ4NHs=",
+        "narHash": "sha256-EJWRmPlBXe41Hv1h1qYprsPHz1n3c7GQHnr81tprsQw=",
         "type": "file",
         "url": "https://persistent.oaistatic.com/codex-app-prod/linux/deb/latest/chatgpt_amd64.deb"
       },
@@ -55,11 +55,11 @@
         "sysproxy": "sysproxy"
       },
       "locked": {
-        "lastModified": 1786927195,
-        "narHash": "sha256-AE92wDHXed6e562dPPwc1vs6x9pjuha8DYKedRRyzt4=",
+        "lastModified": 1787532093,
+        "narHash": "sha256-xS4dMrIdQJz41ixVZ6Jq8HbZqe2gGjbCNUb8v5ry9k8=",
         "ref": "main",
-        "rev": "68cfb8f756bcafe84d146efb33115d54a6cba2bc",
-        "revCount": 17,
+        "rev": "3fd162d4dfe6a49c246d7ee5fe57939d5f998b6c",
+        "revCount": 19,
         "type": "git",
         "url": "https://github.com/Melorise/cp-nix.git"
       },
@@ -92,11 +92,11 @@
         "nixpkgs": "nixpkgs_3"
       },
       "locked": {
-        "lastModified": 1786797116,
-        "narHash": "sha256-c9/Vo1fMaICLp5MBv557oSY5ZMLdSkp+ucxawfdm28M=",
+        "lastModified": 1787200770,
+        "narHash": "sha256-1iySDqOCkOBQC41kygfl3ByrmYH6KDHLOcN7pp8K/nM=",
         "ref": "nix",
-        "rev": "24bb5b2e5d9617e9cf8e19c42b2d832578545aa4",
-        "revCount": 3,
+        "rev": "2acd76148b084ee7ce70079af4e914f4c9d24384",
+        "revCount": 4,
         "type": "git",
         "url": "https://github.com/Melorise/codex-desktop-linux-builder.git"
       },
@@ -109,7 +109,7 @@
     "country": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-4UFc8EQBnd9o8OpJiaXLVOuAjFVJqUhGmDWIigOL0Ao=",
+        "narHash": "sha256-WVqRZW0nZRqtrTw1M+fOd/wvTt/G7GpmuQYmeP8SkYA=",
         "type": "file",
         "url": "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb"
       },
@@ -121,7 +121,7 @@
     "geoip": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-2pb9Zy0kt1brv1Ayw6vQ7rsIoHhrubDpBA6wFmfx9/Y=",
+        "narHash": "sha256-2s8S7RGtjffroKi0wL7v1GeIEbu+7A+Pz5iH6y6JQGg=",
         "type": "file",
         "url": "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat"
       },
@@ -133,7 +133,7 @@
     "geosite": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-7USh1FUB0OtAYaE6smiPPPiHx2hWj6dnReHs0K/qEkA=",
+        "narHash": "sha256-vLu9dqkzczCV4QdY5woH/S6+yaqCQe8O9FidfI9r1Zs=",
         "type": "file",
         "url": "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
       },
@@ -145,7 +145,7 @@
     "metadb": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-CaBvkOroP7VI0lgNU/CiFEBs0HdIjAsPw/k39Ke/yP0=",
+        "narHash": "sha256-2KckFvqhB9G1KLTCMntfaSN5HJr7l/kG81URxGWPgxQ=",
         "type": "file",
         "url": "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.metadb"
       },
@@ -172,11 +172,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1786862985,
-        "narHash": "sha256-FBJRXmbGXiSUDvYEbfLYRkckayyZ6SK1UEqhCrIZ2Cs=",
+        "lastModified": 1787360063,
+        "narHash": "sha256-dt4WdcvsA8/RCe+VZZwqU0X+XMM3wBbGCWA0/sFWzGo=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "e5bdc4a41d4c072fe1e3787eaa0320a384741d44",
+        "rev": "2c423e03bbafcff28bfadc6781a4a8257f205cb5",
         "type": "github"
       },
       "original": {
@@ -188,11 +188,11 @@
     },
     "nixpkgs_3": {
       "locked": {
-        "lastModified": 1786862985,
-        "narHash": "sha256-FBJRXmbGXiSUDvYEbfLYRkckayyZ6SK1UEqhCrIZ2Cs=",
+        "lastModified": 1787498568,
+        "narHash": "sha256-9i/VTdusq/+NM/tz+J1Re+ojkMB8MBf0QshnYfzHz30=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "e5bdc4a41d4c072fe1e3787eaa0320a384741d44",
+        "rev": "56c02bc00adcf003215cc4bd996d6efaf4cff188",
         "type": "github"
       },
       "original": {
@@ -204,11 +204,11 @@
     },
     "nixpkgs_4": {
       "locked": {
-        "lastModified": 1786862985,
-        "narHash": "sha256-FBJRXmbGXiSUDvYEbfLYRkckayyZ6SK1UEqhCrIZ2Cs=",
+        "lastModified": 1787498568,
+        "narHash": "sha256-9i/VTdusq/+NM/tz+J1Re+ojkMB8MBf0QshnYfzHz30=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "e5bdc4a41d4c072fe1e3787eaa0320a384741d44",
+        "rev": "56c02bc00adcf003215cc4bd996d6efaf4cff188",
         "type": "github"
       },
       "original": {
